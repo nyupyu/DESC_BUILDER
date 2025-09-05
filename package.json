@@ -1,0 +1,21 @@
+{
+	"name": "product-page-generator",
+	"version": "1.0.0",
+	"description": "Simple product page generator with theme support",
+	"author": "Oktawian Wybieralski - https://oki.dev",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"dependencies": {
+		"axios": "^1.11.0",
+		"cheerio": "^1.1.2",
+		"chokidar": "^3.5.3",
+		"express": "^4.18.2",
+		"socket.io": "^4.7.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
